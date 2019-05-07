@@ -1,0 +1,38 @@
+I. Znak # rozpoczyna dyrektywy preprocesora. Nie musi być pierwszym znakiem w linii. (mogą być tam spacje i tabulatory)
+
+II. Sekwencje trzyznakowe służą do uzyskiwania nieobecnych na klawiaturze niektórych znaków. # \ ^ | [] {}
+
+III. #define A B 1 2 - error: B was not declared in this scope
+
+IV. Wypisze 70. 
+
+V. linia double s3 spowoduje błąd kompilacji. Kompilator spodziewa się jakiegoś wyrażenia przed znakiem /
+
+VI. Jeśli dyrektywa define jest zbyt długa, można ją rozdzielić na linie wstawiając na końcu każdej linii znak \
+
+VII.
+
+VIII. dwukrotna definicja tej samej nazwy - możliwe, ale kompilator ostrzega (+podmiana nazwy). Można użyć #undef NNN
+
+IX. Należy dołożyć dodatkowe nawiasy do makrodefinicji: #define DZIEL(a,b) ((a) / (b))
+
+X. (makrodefinicja DZIEL napisana w postaci funkcji inline)
+
+XI. 5 obiegów pętli. Nie ma błędu w makrodefinicji - po prostu ++d będzie inkrementowane dwukrotnie.
+
+XII. 10 razy.
+
+XIII. Makrodefinicja Misja.
+
+XVI. Można zagnieżdżać dyrektywy preprocesora #if.
+
+XVII. Dyrektywy defined używa się w wyrażeniach warunkowych preprocesora. Dyrektywa #ifdef nie sprawdza warunku, tylko sprawdza, czy nazwa została zdefiniowana. #ifdef jest bardziej samodzielna.
+
+XVIII. #include "plikA.h" - dołącza plikA.h do programu w miejscu pojawienia się linijki. Cudzysłów - poszukuje w bieżącym katalogu.
+XVIII. #include <plikB.h> - dołącza plikB.h do programu w miejscu pojawienia się linijki. Znaki <> - poszukuje w standardowym katalogu bibliotek.
+
+XIX. Dyrektywy include mogą być zagnieżdżane. Poziomów zagnieżdżeń może być wiele.
+
+XX. Jest poprawne.
+
+XXII. Różnica między dyrektywą pustą a operatorem preprocesora - # pusta to jedyny znak w linii. Nie ma ryzyka nieporozumienia.
