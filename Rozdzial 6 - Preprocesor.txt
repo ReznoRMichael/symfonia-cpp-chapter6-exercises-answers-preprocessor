@@ -36,3 +36,5 @@ XIX. Dyrektywy include mogą być zagnieżdżane. Poziomów zagnieżdżeń może
 XX. Jest poprawne.
 
 XXII. Różnica między dyrektywą pustą a operatorem preprocesora - # pusta to jedyny znak w linii. Nie ma ryzyka nieporozumienia.
+
+XXIII. (program)
